@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     val dices = Dices()
     val random: Random = Random
     val hand = Hand(random)
-    var rollingSize = 5
+    var rollingSize = 6
     var sizeOfLockedDices: String?
 
     for(rollNumber in 1..3) {
